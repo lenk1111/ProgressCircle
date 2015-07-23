@@ -59,7 +59,7 @@ public class MainActivity extends Activity {
 	}
 	Handler handle = new Handler(){
 		public void handleMessage(android.os.Message msg) {
-			startAnimator(progress);
+			startAnimator(80);
 		};
 	};
 }
